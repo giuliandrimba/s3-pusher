@@ -16,7 +16,7 @@
     "node": ">= 0.6.0"
   },
   "bin": {
-    "spritefy": "./bin/s3-pusher"
+    "s3-pusher": "./bin/s3-pusher"
   },
   "keywords": [
     "s3",
@@ -25,7 +25,11 @@
     "s3-publish",
     "s3-pusher"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "fs-util": "~0.3.16",
+    "optimist": "~0.6.0",
+    "colors": "~0.6.2"
+  },
   "devDependencies": {
     "coffee-script": "~1.6.3"
   }
