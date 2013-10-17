@@ -1,0 +1,32 @@
+{
+  "name": "s3-publisher",
+  "description": "Publish assets to Amazon's S3 service via CLI",
+  "version": "0.5.7",
+  "author": "Giulian Drimba (http://giuliandrimba.com.com/)",
+  "homepage": "https://github.com/giuliandrimba/s3-pusher.git",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/giuliandrimba/s3-pusher.git"
+  },
+  "bugs": {
+    "url": "https://github.com/giuliandrimba/s3-pusher.git"
+  },
+  "main": "lib/s3-pusher",
+  "engines": {
+    "node": ">= 0.6.0"
+  },
+  "bin": {
+    "spritefy": "./bin/s3-pusher"
+  },
+  "keywords": [
+    "s3",
+    "amazon",
+    "aws",
+    "s3-publish",
+    "s3-pusher"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "coffee-script": "~1.6.3"
+  }
+}
