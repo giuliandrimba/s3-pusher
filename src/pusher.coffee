@@ -12,6 +12,7 @@ class Pusher
   BUCKET:""
 
   total:0
+  uploaded:0
   files:[]
 
   constructor:(@ACCESS_KEY, @SECRET_KEY, @BUCKET)->
@@ -46,7 +47,8 @@ class Pusher
 
     @initialize ()=>
       @client = s3.createClient key:@ACCESS_KEY, secret:@SECRET_KEY, bucket:@BUCKET
-      @upload file.file, file.type for file in @files
+      for file in @files
+        @upload file.file, file.type
 
 
   upload:(file, type)->
@@ -61,7 +63,7 @@ class Pusher
 
     uploader.on "end", (url)->
       console.log "File avaliable at: #{url}".green
-      process.exit(1);
+      process.exit(1) if ++@uploaded >= @total
 
   ls:(dir, filter, files)->
 

@@ -1,7 +1,7 @@
 {
   "name": "s3-pusher",
   "description": "Publish assets to Amazon's S3 service via CLI",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "Giulian Drimba (http://giuliandrimba.com.com/)",
   "homepage": "https://github.com/giuliandrimba/s3-pusher.git",
   "repository": {
