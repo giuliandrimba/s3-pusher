@@ -1,4 +1,4 @@
-s3-pusher
+S3-Pusher
 =========
 
 Publish assets to Amazon's S3 service.
