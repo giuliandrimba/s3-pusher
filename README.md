@@ -5,6 +5,8 @@ Publish assets to Amazon's S3 service.
 
 [![Dependency Status](https://gemnasium.com/giuliandrimba/s3-pusher.png)](https://gemnasium.com/giuliandrimba/s3-pusher)
 
+![Demo](https://dl.dropboxusercontent.com/u/4789686/s3-pusher/s3-pusher-anim.gif)
+
 ##Install
 
 `npm install -g s3-pusher`
