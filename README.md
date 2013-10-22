@@ -3,6 +3,8 @@ S3-Pusher
 
 Publish assets to Amazon's S3 service.
 
+[![Dependency Status](https://gemnasium.com/giuliandrimba/s3-pusher.png)](https://gemnasium.com/giuliandrimba/s3-pusher)
+
 ##Install
 
 `npm install -g s3-pusher`
