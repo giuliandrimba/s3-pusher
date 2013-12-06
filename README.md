@@ -25,3 +25,7 @@ Install the dependencies:
 Watch the source files:
 
 `make watch`
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/giuliandrimba/s3-pusher/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
